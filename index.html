@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Jajat</title>
-</head>
-<body>
-    <h1>Selamat Datang di Toko Jajat</h1>
-    <p>Kami jual berbagai produk terbaik!</p>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="id">
-<head>
   <meta charset="UTF-8">
   <title>Toko JAJAT</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f9; }
-    header { background: #2c3e50; color: white; padding: 30px; text-align: center; }
-    nav { background: #34495e; padding: 15px; text-align: center; }
-    nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    nav { background: #34495e; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 20px; }
+    .produk { display: inline-block; border: 1px solid #ddd; margin: 10px; padding: 10px; width: 200px; text-align: center; }
+    .produk img { width: 100%; height: auto; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Toko JAJAT</h1>
+    <p>Murah • Aman • Terpercaya</p>
+  </header>
 
-    section { paddi
-      border-radius: 10px; 
-      box-shadow:
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#produk">Produk</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
 
+  <section id="produk">
+    <h2>Daftar Produk</h2>
+    <div class="produk">
+      <img src="https://via.placeholder.com/200" alt="Produk 1">
+      <h3>Produk 1</h3>
+      <p>Rp50.000</p>
+      <button>Beli</button>
+    </div>
+    <div class="produk">
+      <img src="https://via.placeholder.com/200" alt="Produk 2">
+      <h3>Produk 2</h3>
+      <p>Rp75.000</p>
+      <button>Beli</button>
+    </div>
+  </section>
 
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <p>WA: 08xxxxxxxxxx</p>
+    <p>IG: @toko_jajat</p>
+  </section>
 
+  <footer>
+    <p>© 2025 Toko JAJAT</p>
+  </footer>
+</body>
+</html>
