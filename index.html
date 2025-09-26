@@ -3,118 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toko Jajat</title>
+  <title>Toko Jajat - Menyediakan jasa Aplikasi Premium & Suntik Sosmed</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f8ff;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    header {
-      background: #0077cc;
-      color: white;
-      padding: 20px;
-    }
-    h1 {
-      margin: 0;
-    }
-    .produk {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 15px;
-      margin: 20px auto;
-      width: 280px;
-      background: #fff;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    }
-    .produk img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .produk h2 {
-      margin: 10px 0 5px;
-      color: #0077cc;
-    }
-    .produk p {
-      font-size: 14px;
-    }
-    .beli-btn {
-      background: #28a745;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 10px;
-    }
-    .beli-btn:hover {
-      background: #218838;
-    }
-    footer {
-      background: #0077cc;
-      color: white;
-      padding: 15px;
-      margin-top: 20px;
-    }
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f8ff; text-align:center;}
+    header { background:#0077cc; color:white; padding:20px;}
+    h1 { margin:0;}
+    h2 { color:#0077cc; margin-bottom:10px;}
+    section { margin:20px auto; max-width:900px;}
+    .kategori { background:#fff; border-radius:10px; padding:15px; margin:15px auto; box-shadow:2px 2px 10px rgba(0,0,0,0.1); text-align:left;}
+    .produk, .layanan { border:1px solid #ccc; border-radius:8px; padding:10px; margin:10px 0; background:#f9f9f9;}
+    .produk img, .layanan img { max-width:100%; border-radius:5px; margin-bottom:5px;}
+    .beli-btn { display:inline-block; background:#28a745; color:white; padding:8px 15px; margin-top:5px; border-radius:5px; text-decoration:none;}
+    .beli-btn:hover { background:#218838;}
+    footer { background:#0077cc; color:white; padding:15px; margin-top:20px;}
   </style>
 </head>
 <body>
   <header>
-    <h1>Selamat Datang di Toko Jajat</h1>
-    <p>Tempat belanja produk terbaik 🌟</p>
+    <h1>Toko Jajat</h1>
+    <p>Aplikasi Premium & suntik Sosmed</p>
   </header>
 
-  <div class="produk">
-    <img src="https://via.placeholder.com/250x150.png?text=Produk+1" alt="Produk 1">
-    <h2>Produk 1</h2>
-    <p>Harga: Rp10.000</p>
-    <a class="beli-btn" href="https://wa.me/6283150745877?text=Halo%20saya%20mau%20beli%20Produk%201" target="_blank">Beli via WhatsApp</a>
-  </div>
+  <!-- Aplikasi Premium -->
+  <section>
+    <h2>Aplikasi Premium</h2>
 
-  <div class="produk">
-    <img src="https://via.placeholder.com/250x150.png?text=Produk+2" alt="Produk 2">
-    <h2>Produk 2</h2>
-    <p>Harga: Rp20.000</p>
-    <a class="beli-btn" href="https://wa.me/6283150745877?text=Halo%20saya%20mau%20beli%20Produk%202" target="_blank">Beli via WhatsApp</a>
-  </div>
+    <div class="kategori">
+      <h3>Streaming App</h3>
+      <div class="produk">
+        <img src="https://via.placeholder.com/250x150?text=Netflix" alt="Netflix">
+        Netflix
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Netflix" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="produk">
+        <img src="https://via.placeholder.com/250x150?text=Viu" alt="Viu">
+        Viu
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Viu" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
 
-  <div class="produk">
-    <img src="https://via.placeholder.com/250x150.png?text=Produk+3" alt="Produk 3">
-    <h2>Produk 3</h2>
-    <p>Harga: Rp30.000</p>
-    <a class="beli-btn" href="https://wa.me/6283150745877?text=Halo%20saya%20mau%20beli%20Produk%203" target="_blank">Beli via WhatsApp</a>
-  </div>
+    <div class="kategori">
+      <h3>Edit App</h3>
+      <div class="produk">
+        <img src="https://via.placeholder.com/250x150?text=Canva" alt="Canva">
+        Canva
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Canva" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="produk">
+        <img src="https://via.placeholder.com/250x150?text=CapCut" alt="CapCut">
+        CapCut
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20CapCut" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
 
-    <div class="produk">
-    <img src="https://via.placeholder.com/250x150.png?text=Produk+3" alt="Produk 3">
-    <h2>Produk 4</h2>
-    <p>Harga: Rp40.000</p>
-    <a class="beli-btn" href="https://wa.me/6283150745877?text=Halo%20saya%20mau%20beli%20Produk%203" target="_blank">Beli via WhatsApp</a>
-  </div>
-  
-  <div class="produk">
-    <img src="https://via.placeholder.com/250x150.png?text=Produk+3" alt="Produk 3">
-    <h2>Produk 5</h2>
-    <p>Harga: Rp50.000</p>
-    <a class="beli-btn" href="https://wa.me/6283150745877?text=Halo%20saya%20mau%20beli%20Produk%203" target="_blank">Beli via WhatsApp</a>
-  </div>
-  
-  <div class="produk">
-    <img src="https://via.placeholder.com/250x150.png?text=Produk+3" alt="Produk 3">
-    <h2>Produk 6</h2>
-    <p>Harga: Rp60.000</p>
-    <a class="beli-btn" href="https://wa.me/6283150745877?text=Halo%20saya%20mau%20beli%20Produk%203" target="_blank">Beli via WhatsApp</a>
-  </div>
+    <div class="kategori">
+      <h3>Other App</h3>
+      <div class="produk">
+        <img src="https://via.placeholder.com/250x150?text=ChatGPT" alt="ChatGPT">
+        ChatGPT
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20ChatGPT" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="produk">
+        <img src="https://via.placeholder.com/250x150?text=Spotify" alt="Spotify">
+        Spotify
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Spotify" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Suntik Sosmed -->
+  <section>
+    <h2>Suntik Sosial Media</h2>
+
+    <div class="kategori">
+      <h3>Instagram</h3>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Followers+IG" alt="Followers IG">
+        Followers
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Followers%20Instagram" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Likes+IG" alt="Likes IG">
+        Likes
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Likes%20Instagram" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Views+IG" alt="Views IG">
+        Views
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Views%20Instagram" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="kategori">
+      <h3>TikTok</h3>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Followers+TT" alt="Followers TikTok">
+        Followers
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Followers%20TikTok" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Likes+TT" alt="Likes TikTok">
+        Likes
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Likes%20TikTok" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Views+TT" alt="Views TikTok">
+        Views
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Views%20TikTok" target="_blank">Beli via WhatsApp</a>
+      </div>
+      <div class="layanan">
+        <img src="https://via.placeholder.com/250x150?text=Share+TT" alt="Share TikTok">
+        Share
+        <a class="beli-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20Share%20TikTok" target="_blank">Beli via WhatsApp</a>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Toko Jajat | Semua Hak Dilindungi</p>
+    &copy; 2025 Toko Jajat | Semua Hak Dilindungi
   </footer>
 </body>
 </html>
-
-
-
